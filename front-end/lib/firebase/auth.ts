@@ -1,7 +1,7 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import { User, onAuthStateChanged } from 'firebase/auth';
+import { useEffect, useState } from 'react';
 import { auth as rawAuth } from './firebase';
 
 // firebase auth is initialized only in the browser and exported as unknown from firebase.ts
